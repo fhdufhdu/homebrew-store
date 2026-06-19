@@ -4,10 +4,10 @@ cask "flex-menubar" do
   version "1.0.0"
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://github.com/fhdufhdu/homebrew-flex/releases/download/v#{version}/flex-menubar.zip"
+  url "https://github.com/fhdufhdu/homebrew-store/releases/download/flex-menubar-v#{version}/flex-menubar.zip"
   name "flex-menubar"
   desc "flex.team 주간 근무시간을 macOS 메뉴바에 표시"
-  homepage "https://github.com/fhdufhdu/homebrew-flex"
+  homepage "https://github.com/fhdufhdu/homebrew-store"
 
   depends_on macos: ">= :catalina"
 
