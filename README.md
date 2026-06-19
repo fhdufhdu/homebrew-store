@@ -14,10 +14,16 @@ brew tap fhdufhdu/store
 
 | 앱 | 설명 | 설치 |
 |----|------|------|
-| [`flex-menubar`](https://github.com/fhdufhdu/flex-work-record-calculator-menubar-app) | flex.team 주간 근무시간을 macOS 메뉴바에 표시 | `brew install --cask --no-quarantine flex-menubar` |
+| [`flex-menubar`](https://github.com/fhdufhdu/flex-work-record-calculator-menubar-app) | flex.team 주간 근무시간을 macOS 메뉴바에 표시 | `brew install --cask flex-menubar` |
 
-> 대부분의 앱은 Apple Developer 인증서로 서명/공증되지 않았습니다. Homebrew 기본 quarantine
-> 때문에 첫 실행 시 게이트키퍼 경고가 날 수 있어, 설치 시 `--no-quarantine` 를 권장합니다.
+> 대부분의 앱은 Apple Developer 인증서로 서명/공증되지 않았습니다. Homebrew(4.7+)가 quarantine
+> 표식을 붙이고 `--no-quarantine` 플래그는 제거됐으므로, **설치 후 표식 제거**가 필요합니다:
+>
+> ```bash
+> xattr -dr com.apple.quarantine "/Applications/<앱>.app"
+> ```
+>
+> (또는 Finder 에서 앱 우클릭 → 열기)
 
 ## 업데이트 / 제거
 

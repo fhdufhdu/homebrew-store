@@ -15,13 +15,12 @@ cask "flex-menubar" do
 
   caveats <<~EOS
     flex-menubar 는 Apple Developer 인증서로 서명/공증되지 않았습니다.
-    Homebrew 는 기본으로 quarantine 표식을 붙이므로, 경고 없이 설치하려면:
+    Homebrew(4.7+)는 quarantine 표식을 붙이고 --no-quarantine 플래그는 제거되었으므로,
+    설치 후 표식을 직접 제거해야 경고 없이 실행됩니다:
 
-      brew install --cask --no-quarantine flex-menubar
-
-    이미 quarantine 상태로 설치했다면 표식만 제거할 수 있습니다:
       xattr -dr com.apple.quarantine "/Applications/flex-menubar.app"
 
+    (또는 Finder 에서 앱 우클릭 → 열기)
     첫 실행 시 flex.team 로그인 창이 뜹니다. (앱은 자격증명을 저장하지 않습니다)
   EOS
 
