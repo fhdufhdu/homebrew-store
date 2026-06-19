@@ -2,7 +2,7 @@
 # 릴리스마다 version / sha256 을 자동 갱신합니다. 수동 편집 불필요.
 cask "flex-menubar" do
   version "1.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "84f44e4fef412c0e2e2da994325c9b36d9d48de4b09a41f6b196bcb1cc566994"
 
   url "https://github.com/fhdufhdu/homebrew-store/releases/download/flex-menubar-v#{version}/flex-menubar.zip"
   name "flex-menubar"
