@@ -1,8 +1,8 @@
 # 이 파일은 GitHub Actions(메인 레포 .github/workflows/release.yml)가
 # 릴리스마다 version / sha256 을 자동 갱신합니다. 수동 편집 불필요.
 cask "flex-menubar" do
-  version "1.0.2"
-  sha256 "0d8706c9984ae7f3064f8d43058a621a47226b4e63c03af9ffd6b239239a6255"
+  version "1.0.3"
+  sha256 "7be520f64895dd28d0eca0330b4b7f1d04f595d88ee3661a551ae566e76e266b"
 
   url "https://github.com/fhdufhdu/homebrew-store/releases/download/flex-menubar-v#{version}/flex-menubar.zip"
   name "flex-menubar"
