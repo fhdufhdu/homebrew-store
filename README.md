@@ -18,8 +18,9 @@ brew trust fhdufhdu/store   # 서드파티 tap 신뢰 (Homebrew 5.x, 최초 1회
 |----|------|------|
 | [`flex-menubar`](https://github.com/fhdufhdu/flex-work-record-calculator-menubar-app) | flex.team 주간 근무시간을 macOS 메뉴바에 표시 | `brew install --cask flex-menubar` |
 
-> 대부분의 앱은 Apple Developer 인증서로 서명/공증되지 않았습니다. Homebrew(4.7+)가 quarantine
-> 표식을 붙이고 `--no-quarantine` 플래그는 제거됐으므로, **설치 후 표식 제거**가 필요합니다:
+> `flex-menubar` 는 Apple Developer 인증서로 **서명·공증**되어 있어, 설치 후 별도 조치 없이 바로 실행됩니다.
+>
+> 서명되지 않은 앱을 추가하는 경우에 한해, Homebrew(4.7+)가 붙이는 quarantine 표식을 설치 후 제거해야 할 수 있습니다:
 >
 > ```bash
 > xattr -dr com.apple.quarantine "/Applications/<앱>.app"

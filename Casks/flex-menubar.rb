@@ -9,7 +9,7 @@ cask "flex-menubar" do
   desc "flex.team 주간 근무시간을 macOS 메뉴바에 표시"
   homepage "https://github.com/fhdufhdu/homebrew-store"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "flex-menubar.app"
 
