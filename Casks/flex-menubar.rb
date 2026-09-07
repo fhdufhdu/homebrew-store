@@ -2,14 +2,14 @@
 # 실제 배포 시 version/sha256 은 .github/workflows/release.yml 가 tap 레포 쪽을 자동 갱신합니다.
 cask "flex-menubar" do
   version "1.0.7"
-  sha256 "3f8b90d0f152a660891ca3586e501edfd9f0499686fabae8bce654680d1796ec"
+  sha256 "05b46fbbf9a937df02d99b191dad41f325ec724d046cd679e8950331f804908a"
 
   url "https://github.com/fhdufhdu/homebrew-store/releases/download/flex-menubar-v#{version}/flex-menubar.zip"
   name "flex-menubar"
   desc "flex.team 주간 근무시간을 macOS 메뉴바에 표시"
   homepage "https://github.com/fhdufhdu/homebrew-store"
 
-  depends_on macos: :catalina
+  depends_on :macos
 
   app "flex-menubar.app"
 
