@@ -1,8 +1,8 @@
 # 이 파일은 tap 레포(fhdufhdu/homebrew-store)의 Casks/flex-menubar.rb 의 참조 사본입니다.
 # 실제 배포 시 version/sha256 은 .github/workflows/release.yml 가 tap 레포 쪽을 자동 갱신합니다.
 cask "flex-menubar" do
-  version "1.0.11"
-  sha256 "5bb14f56a758f7659e27fbe89a378e97a5f6925afe5154a73670145a7e3b6e8f"
+  version "1.0.12"
+  sha256 "6429128f547a0cae79e7992f1d80ec11da23ad78f47f38b5c33ac834a5f78a1d"
 
   url "https://github.com/fhdufhdu/homebrew-store/releases/download/flex-menubar-v#{version}/flex-menubar.zip"
   name "flex-menubar"
