@@ -1,13 +1,14 @@
 # 이 파일은 tap 레포(fhdufhdu/homebrew-store)의 Casks/flex-menubar.rb 의 참조 사본입니다.
 # 실제 배포 시 version/sha256 은 .github/workflows/release.yml 가 tap 레포 쪽을 자동 갱신합니다.
 cask "flex-menubar" do
-  version "1.1.0"
-  sha256 "2655ce56e5a925ad40fce4e823155a7dd8d3f884d779a4ff88482b1a1fcf0303"
+  version "1.2.0"
+  sha256 "ed8ec6188394f2cd6422ee568c5c2c5c3e523b5a5dad8295b4b8888b4d86a387"
 
   url "https://github.com/fhdufhdu/homebrew-store/releases/download/flex-menubar-v#{version}/flex-menubar.zip"
   name "flex-menubar"
   desc "flex.team 주간 근무시간을 macOS 메뉴바에 표시"
   homepage "https://github.com/fhdufhdu/homebrew-store"
+  auto_updates true
 
   depends_on :macos
 

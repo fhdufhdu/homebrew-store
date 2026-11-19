@@ -1,0 +1,13 @@
+{
+  "version": "1.2.0",
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/fhdufhdu/homebrew-store/releases/download/flex-menubar-v1.2.0/flex-menubar.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRblVPNG5aRGdJb2ZsTUZJUjN3azQ0djdjd05OMllHQzFJQ0w5dDFZK0tIOHpCUlVPbGx2SFBESnVMSlBWbHg4eXY0VzB6TmFMR1NqSkM0SDdUdmp0YTdNZnMrNXVyVWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDc1Nzc1CWZpbGU6ZmxleC1tZW51YmFyLmFwcC50YXIuZ3oJdmVyc2lvbjoxLjIuMApmNjJnTWJVZWo2M1pvNWV0eWpQbGV6NXNnQnp2MndKNWhYWmVLZ3c1ZFRTWlR1Zmw2dDVEN21DSmE4N1pQUXpPZCtuTk5LWnVjSDJ6WGw2NjhySVlEdz09Cg=="
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/fhdufhdu/homebrew-store/releases/download/flex-menubar-v1.2.0/flex-menubar.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRblVPNG5aRGdJb2ZsTUZJUjN3azQ0djdjd05OMllHQzFJQ0w5dDFZK0tIOHpCUlVPbGx2SFBESnVMSlBWbHg4eXY0VzB6TmFMR1NqSkM0SDdUdmp0YTdNZnMrNXVyVWdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MDc1Nzc1CWZpbGU6ZmxleC1tZW51YmFyLmFwcC50YXIuZ3oJdmVyc2lvbjoxLjIuMApmNjJnTWJVZWo2M1pvNWV0eWpQbGV6NXNnQnp2MndKNWhYWmVLZ3c1ZFRTWlR1Zmw2dDVEN21DSmE4N1pQUXpPZCtuTk5LWnVjSDJ6WGw2NjhySVlEdz09Cg=="
+    }
+  }
+}
